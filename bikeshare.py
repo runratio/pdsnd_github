@@ -17,7 +17,7 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sun
 
 #df = pd.read_csv(city_data[city_name])
 
-def print_pause(message_to_print):
+def print_pause(message_to_print): #Print timing
     print(message_to_print)
     time.sleep(1)
 
@@ -86,7 +86,7 @@ def time_statistics(df): #CALCULATING TIME STATISTICS
     print_pause('~'*50)
 
 
-def station_statistic(df):
+def station_statistic(df): 
 
     print('\nCalculating the most popular stations & trips\n')
 
