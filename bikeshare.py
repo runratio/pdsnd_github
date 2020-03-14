@@ -21,7 +21,7 @@ def print_pause(message_to_print): #Print timing
     print(message_to_print)
     time.sleep(1)
 
-def intro():
+def intro(): #Intro message
     print('Hello! Let\'s explore some US bikeshare data!')
 
 
@@ -86,7 +86,7 @@ def time_statistics(df): #CALCULATING TIME STATISTICS
     print_pause('~'*50)
 
 
-def station_statistic(df): 
+def station_statistic(df):
 
     print('\nCalculating the most popular stations & trips\n')
 
