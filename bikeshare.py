@@ -17,11 +17,11 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sun
 
 #df = pd.read_csv(city_data[city_name])
 
-def print_pause(message_to_print):
+def print_pause(message_to_print): #Print timing
     print(message_to_print)
     time.sleep(1)
 
-def intro():
+def intro(): #Intro message
     print('Hello! Let\'s explore some US bikeshare data!')
 
 
